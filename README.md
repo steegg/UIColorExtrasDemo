@@ -17,9 +17,7 @@ Copy the folder `UIColor+Extras` to your project.
 
 ## Usage
 
-Add a UIColor+Extras either in code or using interface builder.
-
-Example, how to add a ```UIColor+Extras``` in a nav bar:
+Example, how to use one of the extra colors by setting the backGround color of a UILabel:
 
 ``` objc
 UILabel *myLabel = [UILabel new];
