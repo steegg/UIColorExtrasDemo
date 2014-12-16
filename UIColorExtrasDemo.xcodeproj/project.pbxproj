@@ -14,6 +14,7 @@
 		AA116F031A40BD480079DDE9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA116F021A40BD480079DDE9 /* Images.xcassets */; };
 		AA116F061A40BD480079DDE9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA116F041A40BD480079DDE9 /* LaunchScreen.xib */; };
 		AA116F121A40BD480079DDE9 /* UIColorExtrasDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA116F111A40BD480079DDE9 /* UIColorExtrasDemoTests.m */; };
+		AA116F1D1A40BDF00079DDE9 /* UIColor+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = AA116F1C1A40BDF00079DDE9 /* UIColor+Extras.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		AA116F0B1A40BD480079DDE9 /* UIColorExtrasDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIColorExtrasDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA116F101A40BD480079DDE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA116F111A40BD480079DDE9 /* UIColorExtrasDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIColorExtrasDemoTests.m; sourceTree = "<group>"; };
+		AA116F1B1A40BDF00079DDE9 /* UIColor+Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extras.h"; sourceTree = "<group>"; };
+		AA116F1C1A40BDF00079DDE9 /* UIColor+Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extras.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,7 @@
 			children = (
 				AA116EF91A40BD480079DDE9 /* AppDelegate.h */,
 				AA116EFA1A40BD480079DDE9 /* AppDelegate.m */,
+				AA116F1E1A40BDF50079DDE9 /* UIColor+Extras */,
 				AA116EFC1A40BD480079DDE9 /* ViewController.h */,
 				AA116EFD1A40BD480079DDE9 /* ViewController.m */,
 				AA116EFF1A40BD480079DDE9 /* Main.storyboard */,
@@ -117,6 +121,15 @@
 				AA116F101A40BD480079DDE9 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA116F1E1A40BDF50079DDE9 /* UIColor+Extras */ = {
+			isa = PBXGroup;
+			children = (
+				AA116F1B1A40BDF00079DDE9 /* UIColor+Extras.h */,
+				AA116F1C1A40BDF00079DDE9 /* UIColor+Extras.m */,
+			);
+			name = "UIColor+Extras";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +234,7 @@
 			files = (
 				AA116EFE1A40BD480079DDE9 /* ViewController.m in Sources */,
 				AA116EFB1A40BD480079DDE9 /* AppDelegate.m in Sources */,
+				AA116F1D1A40BDF00079DDE9 /* UIColor+Extras.m in Sources */,
 				AA116EF81A40BD480079DDE9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

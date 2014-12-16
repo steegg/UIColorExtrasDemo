@@ -7,9 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+// #import "UIColor+Extras.h"       // Not actually required
 
-@interface ViewController : UIViewController
-
+@interface ViewController : UITableViewController
 
 @end
 
