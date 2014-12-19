@@ -2,7 +2,7 @@
 
 > `UIColor+Extras` extends the existing UIColor class by providing 142 extra named colors. As such it does not require you to make any changes to your existing code beyond placing the folder `UIColor+Extras` in your project. It is packaged with a minimalistic `UIColor+ExtrasDemo` which allows you to scroll through all the available colors presented as colored horizontal strips overlayer with their color name.
 
-![demo](images/UIColorExtrasDemoScreenshot.png)
+[![demo](images/UIColorExtrasDemoScreenshot.png)](https://www.youtube.com/watch?v=8TbNzHt2Rm4&feature=youtu.be)
 
 ## Requirements
 
